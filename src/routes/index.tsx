@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import hero from "@/assets/hero-portrait.png.asset.json";
+import hero from "@/assets/portrait-cut.png.asset.json";
 import edgerul from "@/assets/proj-edgerul.jpg.asset.json";
 import sms from "@/assets/proj-sms.jpg.asset.json";
 import { Parallax } from "@/components/fx/Parallax";
@@ -63,15 +63,15 @@ function Index() {
           </h1>
 
           <div
-            className="relative -mt-[13vw] flex justify-center"
+            className="relative -mt-[9vw] flex justify-center"
             style={{ transform: `translate3d(${m.x * 22}px, ${m.y * 14}px, 0)` }}
           >
             <img
               src={hero.url}
               alt="Portrait of Saksham Sharma"
               width={1024}
-              height={1408}
-              className="h-[62vh] w-auto object-contain drop-shadow-[0_40px_80px_rgba(0,0,0,0.9)] md:h-[74vh]"
+              height={1280}
+              className="h-[52vh] w-auto object-contain drop-shadow-[0_40px_80px_rgba(0,0,0,0.9)] md:h-[64vh]"
             />
             <div
               className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
