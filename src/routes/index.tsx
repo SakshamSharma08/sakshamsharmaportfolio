@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import hero from "@/assets/portrait-cut.png.asset.json";
 import edgerul from "@/assets/proj-edgerul.jpg.asset.json";
 import sms from "@/assets/proj-sms.jpg.asset.json";
 import { Parallax } from "@/components/fx/Parallax";
@@ -54,32 +53,15 @@ function Index() {
           className="pointer-events-none absolute inset-0"
           style={{ background: "radial-gradient(60% 50% at 50% 30%, oklch(0.3 0.14 25 / 0.5), transparent 70%)" }}
         />
-        <div className="scene-3d relative mx-auto max-w-[1400px] px-5 md:px-10">
+        <div className="scene-3d relative mx-auto flex min-h-[78svh] max-w-[1400px] flex-col justify-center px-5 md:px-10">
           <h1
-            className="display pointer-events-none select-none text-[22vw] text-primary/85 md:text-[17vw]"
+            className="display pointer-events-none select-none text-[24vw] text-primary/85 md:text-[19vw]"
             style={{ transform: `translate3d(${m.x * -40}px, ${m.y * -18}px, 0)` }}
           >
             Saksham
           </h1>
 
-          <div
-            className="relative -mt-[6vw] flex justify-center md:-mt-[9vw]"
-            style={{ transform: `translate3d(${m.x * 22}px, ${m.y * 14}px, 0)` }}
-          >
-            <img
-              src={hero.url}
-              alt="Portrait of Saksham Sharma"
-              width={377}
-              height={1092}
-              className="h-[42vh] w-auto object-contain drop-shadow-[0_40px_80px_rgba(0,0,0,0.9)] md:h-[64vh]"
-            />
-            <div
-              className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
-              style={{ background: "var(--gradient-fade)" }}
-            />
-          </div>
-
-          <div className="pointer-events-none relative mt-6 md:absolute md:inset-x-10 md:bottom-10 md:mt-0">
+          <div className="pointer-events-none relative mt-2">
             <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
               <div className="pointer-events-auto max-w-sm">
                 <p className="font-script text-3xl text-foreground/90">Hello, I'm</p>

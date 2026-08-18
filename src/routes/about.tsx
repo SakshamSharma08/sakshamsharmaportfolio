@@ -1,6 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import cut from "@/assets/portrait-cut.png.asset.json";
-import { Parallax } from "@/components/fx/Parallax";
 import { Reveal } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
 
@@ -58,21 +56,40 @@ function About() {
           </Reveal>
         </div>
 
-        <Parallax speed={0.35}>
-          <TiltCard intensity={14} className="relative">
+        <Reveal delay={120}>
+          <TiltCard intensity={12} className="relative h-full overflow-hidden border border-border bg-card p-10">
             <div
-              className="absolute inset-6 -z-10 blur-3xl"
-              style={{ background: "var(--gradient-crimson)", opacity: 0.35 }}
+              className="absolute inset-0 -z-10 opacity-40"
+              style={{ background: "var(--gradient-crimson)" }}
             />
-            <img
-              src={cut.url}
-              alt="Saksham Sharma"
-              width={377}
-              height={1092}
-              className="mx-auto max-h-[70vh] w-auto object-contain"
-            />
+            <div className="flex h-full flex-col justify-between gap-8">
+              <div className="display text-[7vw] leading-none text-foreground/10 md:text-5xl">SS</div>
+              <div>
+                <p className="font-script text-2xl text-foreground/80">Saksham Sharma</p>
+                <p className="mt-2 text-xs tracking-[0.25em] uppercase text-primary">
+                  CSE · IoT & Intelligent Systems
+                </p>
+                <p className="mt-1 text-xs tracking-[0.25em] uppercase text-muted-foreground">
+                  Manipal University Jaipur
+                </p>
+              </div>
+              <div className="grid grid-cols-3 gap-4 border-t border-border pt-6">
+                <div>
+                  <div className="display text-3xl text-primary">9.16</div>
+                  <div className="text-[10px] tracking-[0.2em] uppercase text-muted-foreground">CGPA</div>
+                </div>
+                <div>
+                  <div className="display text-3xl text-primary">5th</div>
+                  <div className="text-[10px] tracking-[0.2em] uppercase text-muted-foreground">Semester</div>
+                </div>
+                <div>
+                  <div className="display text-3xl text-primary">2028</div>
+                  <div className="text-[10px] tracking-[0.2em] uppercase text-muted-foreground">Expected</div>
+                </div>
+              </div>
+            </div>
           </TiltCard>
-        </Parallax>
+        </Reveal>
       </section>
 
       <section className="mx-auto max-w-[1400px] px-5 py-24 md:px-10">

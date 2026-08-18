@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Github, Linkedin, Mail, MapPin } from "lucide-react";
-import cut from "@/assets/portrait-cut.png.asset.json";
 import { Parallax } from "@/components/fx/Parallax";
 import { Reveal } from "@/components/fx/Reveal";
 
@@ -82,19 +81,19 @@ function Contact() {
         </div>
 
         <Parallax speed={0.3} className="hidden md:block">
-          <div className="relative">
+          <div className="relative flex h-full min-h-[60vh] flex-col justify-center border border-border bg-card p-10">
             <div
-              className="absolute inset-10 -z-10 blur-3xl"
-              style={{ background: "var(--gradient-crimson)", opacity: 0.3 }}
+              className="absolute inset-0 -z-10 opacity-40"
+              style={{ background: "var(--gradient-crimson)" }}
             />
-            <img
-              src={cut.url}
-              alt="Saksham Sharma"
-              width={377}
-              height={1092}
-              loading="lazy"
-              className="mx-auto max-h-[70vh] w-auto object-contain"
-            />
+            <div className="display text-[8vw] leading-none text-foreground/10 md:text-6xl">SS</div>
+            <p className="mt-6 font-script text-2xl text-foreground/80">Saksham Sharma</p>
+            <p className="mt-2 text-xs tracking-[0.25em] uppercase text-primary">
+              Open to Internships
+            </p>
+            <p className="mt-1 text-xs tracking-[0.25em] uppercase text-muted-foreground">
+              AI/ML · IoT · Full-Stack
+            </p>
           </div>
         </Parallax>
       </section>
