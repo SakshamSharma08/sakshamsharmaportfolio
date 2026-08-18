@@ -69,8 +69,8 @@ function Index() {
             <img
               src={hero.url}
               alt="Portrait of Saksham Sharma"
-              width={1024}
-              height={1280}
+              width={377}
+              height={1092}
               className="h-[42vh] w-auto object-contain drop-shadow-[0_40px_80px_rgba(0,0,0,0.9)] md:h-[64vh]"
             />
             <div
