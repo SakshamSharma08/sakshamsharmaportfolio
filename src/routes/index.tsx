@@ -49,7 +49,7 @@ function Index() {
   return (
     <div className="grain">
       {/* HERO */}
-      <section className="relative min-h-[100svh] overflow-hidden pt-24">
+      <section className="relative min-h-[100svh] overflow-hidden pt-24 pb-16 md:pb-0">
         <div
           className="pointer-events-none absolute inset-0"
           style={{ background: "radial-gradient(60% 50% at 50% 30%, oklch(0.3 0.14 25 / 0.5), transparent 70%)" }}
@@ -63,7 +63,7 @@ function Index() {
           </h1>
 
           <div
-            className="relative -mt-[9vw] flex justify-center"
+            className="relative -mt-[6vw] flex justify-center md:-mt-[9vw]"
             style={{ transform: `translate3d(${m.x * 22}px, ${m.y * 14}px, 0)` }}
           >
             <img
@@ -71,7 +71,7 @@ function Index() {
               alt="Portrait of Saksham Sharma"
               width={1024}
               height={1280}
-              className="h-[52vh] w-auto object-contain drop-shadow-[0_40px_80px_rgba(0,0,0,0.9)] md:h-[64vh]"
+              className="h-[42vh] w-auto object-contain drop-shadow-[0_40px_80px_rgba(0,0,0,0.9)] md:h-[64vh]"
             />
             <div
               className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
@@ -79,7 +79,7 @@ function Index() {
             />
           </div>
 
-          <div className="pointer-events-none absolute inset-x-5 bottom-10 md:inset-x-10">
+          <div className="pointer-events-none relative mt-6 md:absolute md:inset-x-10 md:bottom-10 md:mt-0">
             <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
               <div className="pointer-events-auto max-w-sm">
                 <p className="font-script text-3xl text-foreground/90">Hello, I'm</p>
