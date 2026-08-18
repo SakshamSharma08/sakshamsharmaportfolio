@@ -90,8 +90,8 @@ function Contact() {
             <img
               src={cut.url}
               alt="Saksham Sharma"
-              width={1024}
-              height={1280}
+              width={377}
+              height={1092}
               loading="lazy"
               className="mx-auto max-h-[70vh] w-auto object-contain"
             />
