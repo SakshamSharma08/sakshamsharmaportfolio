@@ -9,16 +9,16 @@ import { TiltCard } from "@/components/fx/TiltCard";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Saksham Sharma — CS Undergrad, AI/ML & IoT Engineer" },
+      { title: "Saksham Sharma — CS Undergrad, Software Developer" },
       {
         name: "description",
         content:
-          "Portfolio of Saksham Sharma — Computer Science undergrad at Manipal University Jaipur building full-stack and edge-AI systems.",
+          "Portfolio of Saksham Sharma — Computer Science undergrad at Manipal University Jaipur building software across web, systems and AI.",
       },
-      { property: "og:title", content: "Saksham Sharma — AI/ML & IoT Engineer" },
+      { property: "og:title", content: "Saksham Sharma — Software Developer" },
       {
         property: "og:description",
-        content: "Edge-AI, machine learning and full-stack projects by Saksham Sharma.",
+        content: "Web, systems and machine-learning projects by Saksham Sharma.",
       },
     ],
   }),
