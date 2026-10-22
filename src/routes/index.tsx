@@ -67,12 +67,12 @@ function Index() {
                 <p className="font-script text-3xl text-foreground/90">Hello, I'm</p>
                 <h2 className="display text-5xl md:text-6xl">Saksham</h2>
                 <p className="mt-3 text-sm tracking-[0.22em] uppercase text-primary">
-                  AI / ML Engineer & IoT Developer
+                  Software Developer · Web · Systems · AI
                 </p>
                 <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-                  Computer Science undergraduate specializing in IoT & Intelligent Systems. I build
-                  full-stack and machine learning applications — currently an edge-AI predictive
-                  maintenance system for a national hackathon.
+                  Computer Science undergraduate who builds across the stack — full-stack web apps,
+                  C/C++ systems projects, Java backends and applied machine learning. Comfortable
+                  wherever a problem leads, from a browser UI down to the data pipeline.
                 </p>
                 <Link
                   to="/projects"
@@ -102,7 +102,7 @@ function Index() {
         <div className="animate-marquee flex w-max gap-10 whitespace-nowrap">
           {Array.from({ length: 2 }).map((_, i) => (
             <div key={i} className="flex gap-10">
-              {["Python", "C / C++", "React", "Node.js", "XGBoost", "LSTM", "ONNX / TFLite", "Supabase", "IoT"].map(
+              {["Python", "C / C++", "Java", "React", "Node.js", "DSA", "XGBoost", "ONNX / TFLite", "Spring Boot", "IoT"].map(
                 (t) => (
                   <span key={t} className="display text-2xl text-muted-foreground/50">
                     {t} <span className="text-primary">✦</span>
