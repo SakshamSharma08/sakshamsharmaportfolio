@@ -23,7 +23,7 @@ export const Route = createFileRoute("/skills")({
 });
 
 const groups = [
-  { t: "Languages", items: ["C", "C++", "Python", "JavaScript"] },
+  { t: "Languages", items: ["C", "C++", "Java", "Python", "JavaScript"] },
   { t: "Web & Backend", items: ["React", "Node.js", "Express.js (basics)", "Vite"] },
   { t: "AI / ML", items: ["Random Forest", "XGBoost", "LSTM", "ONNX / TFLite", "Streamlit"] },
   { t: "Tools", items: ["Git", "GitHub", "VS Code", "Supabase"] },

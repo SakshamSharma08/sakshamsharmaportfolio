@@ -44,9 +44,9 @@ function Contact() {
               <span className="text-primary">together</span>
             </h1>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
-              I'm currently seeking an internship where I can apply software and ML skills to
-              real-world engineering problems. Open to collaborations on AI/ML, IoT and full-stack
-              builds.
+              I'm currently seeking an internship where I can apply software skills to real-world
+              engineering problems. Open to collaborations across web, systems, IoT and machine
+              learning projects.
             </p>
           </Reveal>
 
@@ -93,7 +93,7 @@ function Contact() {
               Open to Internships
             </p>
             <p className="mt-1 text-xs tracking-[0.25em] uppercase text-muted-foreground">
-              AI/ML · IoT · Full-Stack
+              Web · Systems · IoT · AI
             </p>
           </div>
         </Parallax>

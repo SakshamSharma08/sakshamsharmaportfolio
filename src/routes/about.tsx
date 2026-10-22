@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "Saksham Sharma: B.Tech CSE (IoT & Intelligent Systems) at Manipal University Jaipur, 9.16 CGPA, focused on AI/ML and edge computing.",
+          "Saksham Sharma: B.Tech CSE (IoT & Intelligent Systems) at Manipal University Jaipur, 9.16 CGPA, building software across web, systems and AI.",
       },
       { property: "og:title", content: "About Saksham Sharma" },
       {
@@ -44,14 +44,14 @@ function About() {
               <span className="text-primary">by curiosity</span>
             </h1>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
-              I'm a Computer Science undergraduate specializing in IoT & Intelligent Systems, with
-              hands-on experience building full-stack and machine learning applications. Strong
-              foundation in data structures, programming and applied AI/ML — currently developing an
-              edge-AI predictive maintenance system for a national-level hackathon.
+              I'm a Computer Science undergraduate who enjoys building across every layer —
+              full-stack web apps, C/C++ and Java systems projects, and applied machine learning.
+              Strong foundation in data structures, programming and engineering fundamentals, with
+              hands-on work in all of these through hackathons and personal projects.
             </p>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
-              Seeking an internship to apply software and ML skills to real-world engineering
-              problems. Languages known: English, Hindi.
+              Seeking an internship to apply software skills to real-world engineering problems.
+              Languages known: English, Hindi.
             </p>
           </Reveal>
         </div>
@@ -119,7 +119,7 @@ function About() {
           {[
             {
               t: "Hackathons",
-              d: "Core technical team member, focused on rapid prototyping of AI/ML-driven solutions under deadline pressure.",
+              d: "Core technical team member, rapid-prototyping complete solutions — from C++ agents and ML pipelines to full-stack dashboards — under deadline pressure.",
             },
             {
               t: "Areas of interest",
