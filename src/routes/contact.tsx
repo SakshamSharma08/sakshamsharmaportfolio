@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Code2, Github, Linkedin, Mail, MapPin } from "lucide-react";
 import { Parallax } from "@/components/fx/Parallax";
 import { Reveal } from "@/components/fx/Reveal";
 
@@ -21,8 +21,9 @@ export const Route = createFileRoute("/contact")({
 
 const channels = [
   { icon: Mail, label: "Email", value: "sakshamsharma@gmail.com", href: "mailto:sakshamsharma@gmail.com" },
-  { icon: Github, label: "GitHub", value: "github.com/sakshamsharma", href: "https://github.com/" },
-  { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/sakshamsharma", href: "https://linkedin.com/" },
+  { icon: Github, label: "GitHub", value: "github.com/SakshamSharma08", href: "https://github.com/SakshamSharma08" },
+  { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/saksham-sharma-3a724b2bb", href: "https://linkedin.com/in/saksham-sharma-3a724b2bb" },
+  { icon: Code2, label: "LeetCode", value: "leetcode.com/u/Saksham_Sharma_08", href: "https://leetcode.com/u/Saksham_Sharma_08/" },
   { icon: MapPin, label: "Location", value: "Jaipur, India", href: null },
 ];
 
